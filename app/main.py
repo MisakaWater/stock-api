@@ -4,7 +4,7 @@ from dataclasses import dataclass, field
 from fastapi import FastAPI, HTTPException
 import requests
 import os
-from encryptor import Encryptor
+from app.encryptor import Encryptor
 
 # 配置日志
 logging.basicConfig(level=logging.INFO)
